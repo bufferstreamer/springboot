@@ -1,0 +1,15 @@
+
+spring:
+  banner:
+    location: banner.txt
+  application:
+    name: springboot
+  output:
+    ansi:
+      enabled: always
+
+logging:
+  level:
+    root: error
+server:
+  port: 8080
